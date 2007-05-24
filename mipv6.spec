@@ -1,4 +1,5 @@
-Summary:	MIPL Mobile IPv6
+Summary:	MIPL Mobile IPv6 - Mobile Support in IPv6 implementation
+Summary(pl.UTF-8):	MIPL Mobile IPv6 - implementacja Mobile Support w IPv6
 Name:		mipv6
 Version:	2.0.2
 Release:	0.1
@@ -14,6 +15,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MIPL Mobile IPv6 for Linux is an implementation of the Mobility
 Support in IP version 6 (RFC 3775).
+
+%description -l pl.UTF-8
+MIPL Mobile IPv6 to linuksowa implementacja Mobility Suport w IP w
+wersji 6 (RFC 3775).
 
 %prep
 %setup -q
